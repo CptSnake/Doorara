@@ -1,0 +1,92 @@
+.bac {
+    position:   absolute;
+    height: 70%;
+    width: 800px;
+    background-color: #a036e2;
+    right:  65px;
+    top: 50px;
+    border-radius: 30px;
+    animation-name: qifsha;
+    animation-iteration-count: infinite;
+    animation-duration: 10s
+    
+
+
+
+
+}
+
+.name   {
+    position: absolute;
+    top: 8px;
+    left: 250px;
+    color: blue;
+    font-size: 40px;
+    animation-name: snake;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes snake {
+    30% {
+         color: blue;
+    }
+
+    60% {
+        color: red;
+        top: 20px;
+    }
+
+    100% {
+        color: green;
+        
+    }
+
+
+
+
+
+}
+
+
+
+
+@keyframes qifsha {
+    30% {
+        background-color: purple;
+        border-radius: 80px;
+    }
+    60% {
+        background-color: brown;
+
+    }
+    80% {
+        background-color: aqua;
+        border-radius: 10px;
+    }
+
+
+
+
+}
+
+.imageee {
+    position: absolute;
+    height: 350px;
+    width: 400px;
+    top: 309px;
+    left: 205px;
+
+}
+
+
+.site {
+    position: absolute;
+    width: 180px;
+    height: 300px;
+    bottom: 3px;
+    right: 340px;
+    
+
+}
