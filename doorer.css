@@ -1,9 +1,9 @@
 .bac {
     position:   absolute;
     height: 70%;
-    width: 800px;
+    width: 70%;
     background-color: #a036e2;
-    right:  65px;
+    right:  30%;
     top: 50px;
     border-radius: 30px;
     animation-name: qifsha;
@@ -19,7 +19,7 @@
 .name   {
     position: absolute;
     top: 8px;
-    left: 250px;
+    left: 30%;
     color: blue;
     font-size: 40px;
     animation-name: snake;
@@ -74,7 +74,7 @@
 .imageee {
     position: absolute;
     height: 350px;
-    width: 400px;
+    width: 70%;
     top: 309px;
     left: 205px;
 
