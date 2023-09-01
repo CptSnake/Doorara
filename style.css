@@ -45,8 +45,8 @@
     z-index: 1;
     animation-name: boxakia;
     animation-duration: 10s;
-    top: 617;
-    right: 60;
+    top: 617px;
+    right: 7%;
     border-radius: 300px;
 
 }
@@ -54,7 +54,7 @@
 .drp {
     position: absolute;
     color: green;
-    right: 75px;
+    right: 9%;
     bottom: 265px;
     z-index: 6;
     font-size: 19px;
@@ -78,6 +78,48 @@
 
 
 
+.button1 {
+    position: absolute;
+    background-color: aqua;
+    height: 85px;
+    width: 230px;
+    top: 55%;
+    left: 20%;
+    border-radius: 20px;  
+}
+
+.button2 {
+    position: absolute;
+    background-color: aqua;
+    height: 85px;
+    width: 230px;
+    top: 55%;
+    left: 55%;
+    border-radius: 20px;
+}
+
+.button3 {
+    position:absolute;
+    background-color: aqua;
+    height: 85px;
+    width: 230px;
+    top: 44%;
+    left: 20%;
+    border-radius: 20px;
+}
+
+.button4 {
+    position: absolute;
+    background-color: aqua;
+    height: 85px;
+    width: 230px; 
+    top: 44%;
+    left: 55%;
+    border-radius: 20px;
+}
+
+
+
 
 
 
@@ -98,7 +140,16 @@
 
 
 
-
+.flagt {
+    position: absolute;
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+    z-index: 5;
+    top: 100px;
+    left: 30%;
+    
+}
 
 
 
