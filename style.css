@@ -2,14 +2,64 @@
 .backgrr {
     position:absolute;
     background-color: yellow;
+<<<<<<< HEAD
+    height: 670px;
+    width: 850px;
+    top: 30px;
+    left: 30px;
+    border-radius: 50px;
+}
+
+.boxaki {
+    position:absolute;
+    background-color: aqua;
+    height: 50px;
+    width: 110px;
+    z-index: 3;
+    top: 617;
+    left: 60;
+    border-radius: 300px;
+    
+}
+
+
+@keyframes {
+30% {
+    
+=======
     
     width: 100px;
     height: 100px;
+>>>>>>> c6fe906c926d6803def233df6098997f290323d7
 
 
 }
 
 
+<<<<<<< HEAD
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+>>>>>>> c6fe906c926d6803def233df6098997f290323d7
 /* DRPANAYIOTHS Code */
 body {
     background-color: black;
@@ -21,7 +71,11 @@ body {
 
 .colorname {
     position: absolute;
+<<<<<<< HEAD
+    width: 804px;
+=======
     width: 800px;
+>>>>>>> c6fe906c926d6803def233df6098997f290323d7
     height: 610px;
     background-color: white;
     top: 60px;
@@ -33,9 +87,15 @@ body {
 .namess {
     position: absolute;
     width: 700px;
+<<<<<<< HEAD
+   
+    height: 500px;
+    bottom: 10px;
+=======
     background-color: blueviolet;
     height: 500px;
     bottom: 10px
+>>>>>>> c6fe906c926d6803def233df6098997f290323d7
     
 }
 
@@ -43,6 +103,14 @@ body {
 .snake {
     position: absolute;
     color: green;
+<<<<<<< HEAD
+    left: 65;
+    bottom: 256;
+    z-index: 4;
+    font-size: 19px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+=======
+>>>>>>> c6fe906c926d6803def233df6098997f290323d7
 }
 
 
