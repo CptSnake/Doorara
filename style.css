@@ -2,12 +2,15 @@
 .backgrr {
     position:absolute;
     background-color: yellow;
-
+    animation-name: backgrr;
+    animation-duration: 10s;
     height: 670px;
     width: 750px;
     top: 30px;
+    animation-iteration-count: infinite;
     left: 30px;
     border-radius: 50px;
+    
 }
 
 
@@ -16,7 +19,7 @@
         color: aquamarine;
     }
     80% {
-        transform: rotate(18deg);
+        transform: rotate(10deg);
     }
 }
 
@@ -62,6 +65,12 @@
 
 }
 
+@keyframes backgrr {
+    50% {
+        background:aquamarine;
+    }
+    
+}
 
 
     
@@ -104,7 +113,7 @@ body {
 .colorname {
     position: absolute;
     width: 700px;
-
+    
     height: 610px;
     background-color: white;
     top: 60px;
@@ -150,6 +159,16 @@ body {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
