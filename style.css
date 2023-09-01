@@ -1,0 +1,52 @@
+/* Snakemaster Code  */
+.backgrr {
+    position:absolute;
+    background-color: yellow;
+    
+    width: 100px;
+    height: 100px;
+
+
+}
+
+
+/* DRPANAYIOTHS Code */
+body {
+    background-color: black;
+    
+}
+
+
+
+
+.colorname {
+    position: absolute;
+    width: 800px;
+    height: 610px;
+    background-color: white;
+    top: 60px;
+    left: 55px;
+    border-radius: 10px;
+}
+
+
+.namess {
+    position: absolute;
+    width: 700px;
+    background-color: blueviolet;
+    height: 500px;
+    bottom: 10px
+    
+}
+
+
+.snake {
+    position: absolute;
+    color: green;
+}
+
+
+
+
+
+
