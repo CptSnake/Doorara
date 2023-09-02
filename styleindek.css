@@ -19,7 +19,7 @@
         color: aquamarine;
     }
     80% {
-        transform: rotate(10deg);
+        transform: rotate(4deg);
     }
 }
 
@@ -31,7 +31,7 @@
     z-index: 3;
     top: 617;
     left: 60;
-    border-radius: 300px;
+    border-radius: 5px;
     
     animation-name: boxakia;
     animation-duration: 10s;
@@ -46,16 +46,16 @@
     animation-name: boxakia;
     animation-duration: 10s;
     top: 617px;
-    right: 7%;
-    border-radius: 300px;
+    left: 600px;
+    border-radius: 5px;
 
 }
 
 .drp {
     position: absolute;
     color: green;
-    right: 9%;
-    bottom: 265px;
+    left: 610px;
+    bottom: 23%;
     z-index: 6;
     font-size: 19px;
     font-family: 'Noto Sans Osmanya', sans-serif;
@@ -192,7 +192,7 @@ body {
     animation-name: roller;
     animation-duration: 7s;
     left: 65;
-    bottom: 255;
+    bottom: 23%;
     z-index: 4;
     font-size: 19px;
     font-family: 'Noto Sans Osmanya', sans-serif;

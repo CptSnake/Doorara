@@ -1,0 +1,208 @@
+
+.backgrr {
+    position:absolute;
+    background-color: yellow;
+    animation-name: backgrr;
+    animation-duration: 10s;
+    height: 670px;
+    width: 750px;
+    top: 30px;
+    animation-iteration-count: infinite;
+    left: 30px;
+    border-radius: 50px;
+    
+}
+
+
+@keyframes boxakia {
+    50% {
+        color: aquamarine;
+    }
+    80% {
+        transform: rotate(4deg);
+    }
+}
+
+.boxaki {
+    position:absolute;
+    background-color: aqua;
+    height: 50px;
+    width: 110px;
+    z-index: 3;
+    top: 617;
+    left: 60;
+    border-radius: 5px;
+    
+    animation-name: boxakia;
+    animation-duration: 10s;
+}
+
+.boxaki2 {
+    position: absolute;
+    background-color: aqua;
+    height: 50px;
+    width: 150px;
+    z-index: 1;
+    animation-name: boxakia;
+    animation-duration: 10s;
+    top: 617px;
+    left: 600px;
+    border-radius: 5px;
+
+}
+
+.drp {
+    position: absolute;
+    color: green;
+    left: 610px;
+    bottom: 205px;
+    z-index: 6;
+    font-size: 19px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    animation-name: roller;
+    animation-duration: 7s;
+    
+
+}
+
+@keyframes backgrr {
+    50% {
+        background:aquamarine;
+    }
+    
+}
+
+
+    
+
+
+
+
+.button1 {
+    position: absolute;
+    background-color: aqua;
+    height: 85px;
+    width: 230px;
+    top: 55%;
+    left: 130px;
+    border-radius: 20px;  
+}
+
+.button2 {
+    position: absolute;
+    background-color: aqua;
+    height: 85px;
+    width: 230px;
+    top: 55%;
+    left: 405px;
+    border-radius: 20px;
+}
+
+.button3 {
+    position:absolute;
+    background-color: aqua;
+    height: 85px;
+    width: 230px;
+    top: 44%;
+    left: 130px;
+    border-radius: 20px;
+}
+
+.button4 {
+    position: absolute;
+    background-color: aqua;
+    height: 85px;
+    width: 230px; 
+    top: 44%;
+    left: 402px;
+    border-radius: 20px;
+}
+
+.flagt {
+    position: absolute;
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+    z-index: 5;
+    top: 100px;
+    left: 230px;
+    
+}
+
+
+
+body {
+    background-color: black;
+    
+}
+
+
+
+
+.colorname {
+    position: absolute;
+    width: 700px;
+    
+    height: 610px;
+    background-color: white;
+    top: 60px;
+    left: 55px;
+    border-radius: 10px;
+}
+
+
+.namess {
+    position: absolute;
+    width: 700px;
+
+   
+    height: 500px;
+    bottom: 10px;
+
+
+    
+}
+
+
+.snake {
+    position: absolute;
+    color: green;
+    animation-name: roller;
+    animation-duration: 7s;
+    left: 65;
+    bottom: 41%;
+    z-index: 4;
+    font-size: 19px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+}
+
+
+@keyframes roller {
+
+    50% {
+        color: aquamarine
+    }
+
+    80% {
+        transform: rotate3d(2, 10, 50, 10);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
