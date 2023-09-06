@@ -54,8 +54,8 @@
 .drp {
     position: absolute;
     color: green;
-    left: 998px;
-    bottom: 215px;
+    left: 142%;
+    bottom: 255px;
     z-index: 6;
     font-size: 19px;
     font-family: 'Noto Sans Osmanya', sans-serif;
@@ -169,8 +169,8 @@ body {
     color: green;
     animation-name: roller;
     animation-duration: 7s;
-    left: 453;
-    bottom: 43%;
+    left: 65%;
+    bottom: 255px;
     z-index: 4;
     font-size: 19px;
     font-family: 'Noto Sans Osmanya', sans-serif;
@@ -189,6 +189,25 @@ body {
 
 }
 
+
+
+@media only screen and (min-width: 450px) {
+
+
+    
+
+
+
+    .snake {
+        bottom: 300px;
+    }
+
+    .drp {
+        bottom: 300px;
+    }
+
+
+}
 
 
 
