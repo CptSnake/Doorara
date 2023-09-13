@@ -8,7 +8,7 @@
     width: 750px;
     top: 30px;
     animation-iteration-count: infinite;
-    left: 420px;
+    left: 410px;
     border-radius: 50px;
     
 }
@@ -191,38 +191,35 @@ body {
 
 
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 450px){
 
-
+    .backgrr{
+        left: 33%;
+    }
+    .colorname{
+        left: 34%;
+    }
+    .button1{
+        left: 36%;
+    }
+    .button2{
+        left: 55%;
+    }
+    .button3{
+        left: 36%;
+    }
+    .button4{
+        left: 55%;
+    }
+    .flagt{
+        left: 44%;
+    }
+    .boxaki{
+        left: 35%;
+    }
+    .boxaki2{
+        left: 62%;
+    }
+   
     
-
-
-
-    .snake {
-        bottom: 300px;
-    }
-
-    .drp {
-        bottom: 300px;
-    }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
