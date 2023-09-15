@@ -181,7 +181,7 @@ body {
 
 
 
-@media only screen and (min-width: 450px){
+@media only screen and (min-width: 100px){
 
     .backgrr{
         left: 33%;
@@ -211,6 +211,11 @@ body {
         left: 62%;
     }
     .snake{
-        left: 50%;
+        left: 96%;
+        top: 37%;
+    }
+    .drp{
+        left: 170%;
+        top: 37%;
     }
 }
