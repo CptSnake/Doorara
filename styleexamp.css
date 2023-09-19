@@ -1,19 +1,4 @@
 
-.backgrr {
-    position:absolute;
-    background-color: yellow;
-    animation-name: backgrr;
-    animation-duration: 10s;
-    height: 670px;
-    width: 750px;
-    top: 30px;
-    animation-iteration-count: infinite;
-    left: 410px;
-    border-radius: 50px;
-    
-}
-
-
 @keyframes boxakia {
     50% {
         color: aquamarine;
@@ -23,8 +8,6 @@
     }
 }
 
-
-
 @keyframes backgrr {
     50% {
         background:aquamarine;
@@ -32,68 +15,11 @@
     
 }
 
-.button1 {
-    position: absolute;
-    background-color: aqua;
-    height: 85px;
-    width: 230px;
-    top: 55%;
-    left: 530px;
-    border-radius: 20px;  
-}
-
-.button2 {
-    position: absolute;
-    background-color: aqua;
-    height: 85px;
-    width: 230px;
-    top: 55%;
-    left: 830px;
-    border-radius: 20px;
-}
-
-.button3 {
-    position:absolute;
-    background-color: aqua;
-    height: 85px;
-    width: 230px;
-    top: 44%;
-    left: 530px;
-    border-radius: 20px;
-}
-
-.button4 {
-    position: absolute;
-    background-color: aqua;
-    height: 85px;
-    width: 230px; 
-    top: 44%;
-    left: 830px;
-    border-radius: 20px;
-}
-
-
-
-
-
 body {
     background-color: black;
     
 }
 
-
-
-
-.colorname {
-    position: absolute;
-    width: 700px;
-    
-    height: 610px;
-    background-color: white;
-    top: 60px;
-    left: 445px;
-    border-radius: 10px;
-}
 .namess {
     position: absolute;
     width: 700px;
@@ -104,30 +30,6 @@ body {
 
 
     
-}
-.drp {
-    position: absolute;
-    color: green;
-    left: 142%;
-    bottom: 255px;
-    z-index: 6;
-    font-size: 19px;
-    font-family: 'Noto Sans Osmanya', sans-serif;
-    animation-name: roller;
-    animation-duration: 7s;
-    
-
-}
-.snake {
-    position: absolute;
-    color: green;
-    animation-name: roller;
-    animation-duration: 7s;
-    left: 100px;
-    bottom: 48%;
-    z-index: 4;
-    font-size: 19px;
-    font-family: 'Noto Sans Osmanya', sans-serif;
 }
 
 
@@ -145,30 +47,64 @@ body {
 }
 
 
-
 @media only screen and (min-width: 100px){
 
     .backgrr{
         left: 33%;
+        position:absolute;
+        background-color: yellow;
+        animation-name: backgrr;
+        animation-duration: 10s;
+        height: 670px;
+        width: 750px;
+        top: 30px;
+        animation-iteration-count: infinite;
+        border-radius: 50px;
     }
     .colorname{
         left: 34%;
+        position: absolute;
+        width: 700px;
+        height: 610px;
+        background-color: white;
+        top: 60px;
+        border-radius: 10px;
     }
     .button1{
-        left: 40%;
-        top: 48%;
+        left: 38%;
+        top: 38%;
+        position: absolute;
+        background-color: aqua;
+        height: 85px;
+        width: 230px;
+        border-radius: 20px;
     }
     .button2{
         left: 130%;
         top: 1%;
+        position: absolute;
+        background-color: aqua;
+        height: 85px;
+        width: 230px;
+        border-radius: 20px;
     }
     .button3{
         left: 1px;
         top: 100px;
+        position:absolute;
+        background-color: aqua;
+        height: 85px;
+        width: 230px;
+        border-radius: 20px;
     }
     .button4{
         left: 130%;
         top: 100px;
+        position: absolute;
+        background-color: aqua;
+        height: 85px;
+        width: 230px; 
+        border-radius: 20px;
     }
     .flagt{
         position: absolute;
@@ -184,7 +120,7 @@ body {
         height: 50px;
         width: 110px;
         z-index: 3;
-        top: 320px;
+        top: 245px;
         left: 510px;
         border-radius: 5px;
         
@@ -199,16 +135,32 @@ body {
         z-index: 1;
         animation-name: boxakia;
         animation-duration: 10s;
-        top: 320px;
+        top: 245px;
         right: 157px;
         border-radius: 5px;
     }
     .snake{
         left: 7%;
         top: 14px;
+        position: absolute;
+        color: green;
+        animation-name: roller;
+        animation-duration: 7s;
+        bottom: 48%;
+        z-index: 4;
+        font-size: 19px;
+        font-family: 'Noto Sans Osmanya', sans-serif;
     }
     .drp{
         left: 10%;
         top: 14px;
+        position: absolute;
+        color: green;
+        bottom: 255px;
+        z-index: 6;
+        font-size: 19px;
+        font-family: 'Noto Sans Osmanya', sans-serif;
+        animation-name: roller;
+        animation-duration: 7s;
     }
 }
