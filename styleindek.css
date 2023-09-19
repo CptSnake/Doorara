@@ -1,230 +1,41 @@
-/* Snakemaster Code  */
-.backgrr {
-    position:absolute;
-    background-color: yellow;
-    animation-name: backgrr;
-    animation-duration: 10s;
-    height: 670px;
-    width: 750px;
-    top: 30px;
-    animation-iteration-count: infinite;
-    left: 30px;
-    border-radius: 50px;
-    
-}
-
-
-@keyframes boxakia {
-    50% {
-        color: aquamarine;
-    }
-    80% {
-        transform: rotate(4deg);
-    }
-}
-
-.boxaki {
-    position:absolute;
-    background-color: aqua;
-    height: 50px;
-    width: 110px;
-    z-index: 3;
-    top: 617;
-    left: 60;
-    border-radius: 5px;
-    
-    animation-name: boxakia;
-    animation-duration: 10s;
-}
-
-.boxaki2 {
-    position: absolute;
-    background-color: aqua;
-    height: 50px;
-    width: 150px;
-    z-index: 1;
-    animation-name: boxakia;
-    animation-duration: 10s;
-    top: 617px;
-    left: 600px;
-    border-radius: 5px;
-
-}
-
-.drp {
-    position: absolute;
-    color: green;
-    left: 610px;
-    bottom: 23%;
-    z-index: 6;
-    font-size: 19px;
-    font-family: 'Noto Sans Osmanya', sans-serif;
-    animation-name: roller;
-    animation-duration: 7s;
-    
-
-}
-
-@keyframes backgrr {
-    50% {
-        background:aquamarine;
-    }
-    
-}
-
-
-    
-
-
-
-
-.button1 {
-    position: absolute;
-    background-color: aqua;
-    height: 85px;
-    width: 230px;
-    top: 55%;
-    left: 20%;
-    border-radius: 20px;  
-}
-
-.button2 {
-    position: absolute;
-    background-color: aqua;
-    height: 85px;
-    width: 230px;
-    top: 55%;
-    left: 55%;
-    border-radius: 20px;
-}
-
-.button3 {
-    position:absolute;
-    background-color: aqua;
-    height: 85px;
-    width: 230px;
-    top: 44%;
-    left: 20%;
-    border-radius: 20px;
-}
-
-.button4 {
-    position: absolute;
-    background-color: aqua;
-    height: 85px;
-    width: 230px; 
-    top: 44%;
-    left: 55%;
-    border-radius: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* DRPANAYIOTHS Code */
-
-
-
-.flagt {
-    position: absolute;
-    width: 100px;
-    border-radius: 10px;
-    height: 100px;
-    z-index: 5;
-    top: 100px;
-    left: 30%;
-    
-}
-
-
-
 body {
     background-color: black;
-    
 }
 
-
-
-
-.colorname {
+.place {
     position: absolute;
-    width: 700px;
-    
-    height: 610px;
-    background-color: white;
-    top: 60px;
-    left: 55px;
+    width: 40%;
+    background-color: lightblue;
+    opacity: 0.3;
+    height: 85%;
     border-radius: 10px;
+    right: 30%;
+    top: 50px;
+}
+.vid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
+
+.title {
+    position: absolute;
+    color: rgb(114, 84, 250);
+    left: 600px;
+    top: 20px;
+    font-size: 50;
+    font-family: 'Skranji', cursive;
 }
 
-
-.namess {
+.developedby {
+    font-family: 'Heebo', sans-serif;
     position: absolute;
-    width: 700px;
-
-   
-    height: 500px;
-    bottom: 10px;
-
-
+    top: 670px;
+    left: 440px;
     
 }
-
-
-.snake {
-    position: absolute;
-    color: green;
-    animation-name: roller;
-    animation-duration: 7s;
-    left: 65;
-    bottom: 23%;
-    z-index: 4;
-    font-size: 19px;
-    font-family: 'Noto Sans Osmanya', sans-serif;
-}
-
-
-@keyframes roller {
-
-    50% {
-        color: aquamarine
-    }
-
-    80% {
-        transform: rotate3d(2, 10, 50, 10);
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
