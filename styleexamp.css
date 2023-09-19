@@ -23,33 +23,7 @@
     }
 }
 
-.boxaki {
-    position:absolute;
-    background-color: aqua;
-    height: 50px;
-    width: 110px;
-    z-index: 3;
-    top: 617px;
-    left: 450px;
-    border-radius: 5px;
-    
-    animation-name: boxakia;
-    animation-duration: 10s;
-}
 
-.boxaki2 {
-    position: absolute;
-    background-color: aqua;
-    height: 50px;
-    width: 150px;
-    z-index: 1;
-    animation-name: boxakia;
-    animation-duration: 10s;
-    top: 617px;
-    left: 990px;
-    border-radius: 5px;
-
-}
 
 @keyframes backgrr {
     50% {
@@ -205,17 +179,36 @@ body {
         
     }
     .boxaki{
-        left: 34.2%;
+        position:absolute;
+        background-color: aqua;
+        height: 50px;
+        width: 110px;
+        z-index: 3;
+        top: 320px;
+        left: 510px;
+        border-radius: 5px;
+        
+        animation-name: boxakia;
+        animation-duration: 10s;
     }
     .boxaki2{
-        left: 72%;
+        position: absolute;
+        background-color: aqua;
+        height: 50px;
+        width: 150px;
+        z-index: 1;
+        animation-name: boxakia;
+        animation-duration: 10s;
+        top: 320px;
+        right: 157px;
+        border-radius: 5px;
     }
     .snake{
         left: 7%;
-        top: 37%;
+        top: 14px;
     }
     .drp{
         left: 10%;
-        top: 37%;
+        top: 14px;
     }
 }
