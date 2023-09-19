@@ -98,16 +98,7 @@
     border-radius: 20px;
 }
 
-.flagt {
-    position: absolute;
-    width: 100px;
-    border-radius: 10px;
-    height: 100px;
-    z-index: 5;
-    top: 100px;
-    left: 635px;
-    
-}
+
 
 
 
@@ -190,25 +181,34 @@ body {
         left: 34%;
     }
     .button1{
-        left: 36%;
+        left: 40%;
+        top: 48%;
     }
     .button2{
-        left: 55%;
+        left: 130%;
+        top: 1%;
     }
     .button3{
-        left: 36%;
+        left: 1px;
+        top: 100px;
     }
     .button4{
-        left: 55%;
+        left: 130%;
+        top: 100px;
     }
     .flagt{
-        left: 44%;
+        position: absolute;
+        border-radius: 10px;
+        z-index: 5;
+        left: 50%;
+        bottom: 120%;
+        
     }
     .boxaki{
-        left: 35%;
+        left: 34.2%;
     }
     .boxaki2{
-        left: 62%;
+        left: 72%;
     }
     .snake{
         left: 7%;
