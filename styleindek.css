@@ -34,8 +34,42 @@ body {
 .developedby {
     font-family: 'Heebo', sans-serif;
     position: absolute;
-    top: 670px;
+    top: 88%;
     left: 440px;
     
 }
 
+.fidi {
+    position: absolute;
+    left: 485px;
+    top: 1px;
+    z-index: 2;
+}
+.dr {
+    position: absolute;
+    left: 380px;
+    top: 1px;
+    z-index: 2;
+}
+
+.namebox {
+    position: absolute;
+    background-color: lightblue;
+    width: 185px;
+    border-radius: 10px;
+    left: 375px;
+    opacity: 0.2;
+    bottom: 1px;
+    height: 20px;
+}
+
+
+.gametype {
+    font-family: 'Arbutus', serif;
+    position: absolute;
+    left: 635px;
+    top: 80px;
+    color: rgb(0, 57, 180);
+    font-size: 25;
+    opacity: 0.8;
+}
