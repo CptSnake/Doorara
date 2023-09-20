@@ -73,3 +73,76 @@ body {
     font-size: 25;
     opacity: 0.8;
 }
+
+@keyframes verhtds {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.2;
+    }
+    
+}
+
+
+.verhtds {
+    position: absolute;
+    top: 250px;
+    right: 110px;
+    width: 250px;
+    opacity: 0.4;
+    text-align: center;
+    font-size: 25;
+    font-family: 'Arbutus', serif;
+    border-radius: 5px;
+    animation-name: verhtds;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    height: 50px;
+    background-color: lightblue;
+
+
+}
+
+
+.textverthtds {
+    position: absolute;
+    animation-name: raincolor;
+    animation-duration: 5s;
+    font-family: 'Arbutus', serif;
+    top: 342px;
+    width: 500px;
+    opacity: 1;
+    left: 490px;
+    font-size: 20px;
+    animation-iteration-count: infinite;
+}
+
+.verjs {
+    position: absolute;
+
+}
+
+@keyframes raincolor {
+    0% {
+        color: rgb(84, 137, 250);
+    }
+    50% {
+        color: rgb(29, 108, 114);
+    }
+    100% {
+        color: rgb(84, 156, 250);
+    }
+}
+
+
+
+
+.umbblue {
+    position: absolute;
+    height: auto;
+    width: 50px;
+    left: 9px;
+    bottom: 1px;
+    opacity: 0.8;
+}
