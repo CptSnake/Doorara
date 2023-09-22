@@ -2,6 +2,8 @@ body {
     background-color: black;
 }
 
+    
+
 .place {
     position: absolute;
     width: 40%;
@@ -174,4 +176,216 @@ body {
     font-size: 30px;
     border-radius: 10px;
     opacity: 0.8;
+}
+
+.avaibilitymobile {
+    visibility: hidden;
+
+}
+
+.comingsoon {
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile  Avaibility */
+
+
+
+
+
+    
+
+@media only screen and (max-width: 1000px) {
+
+
+    .umbblue {
+        visibility: hidden;
+    }
+    .comingsoon {
+        visibility: visible;
+        font-size: 70px;
+        width: 2000px;
+        font-family: 'Skranji', cursive;
+        height: 100px;
+        position: fixed;
+        top: 600px;
+        left: 400px;
+    }
+    
+    .avaibilitymobile {
+        visibility: visible;
+        font-size: 70px;
+        width: 2000px;
+        font-family: 'Skranji', cursive;
+        height: 100px;
+        position: fixed;
+        top: 500px;
+        left: 200px;
+    }
+
+    .linkverjs {
+        visibility: hidden;
+    }
+
+    .linkverthtds {
+        visibility: hidden;
+    }
+    .verjs {
+        visibility: hidden;
+    }
+    .verhtds {
+        visibility: hidden;
+    }
+    .linkverthtds {
+        visibility: hidden;
+    }
+    .textverthtds {
+        visibility: hidden;
+    }
+    .gametype {
+        visibility: hidden;
+    }
+
+
+
+
+
+    .place {
+        width: 1100px;
+        left: 80px;
+    }
+    .title {
+        font-size: 100px;
+        left: 390px;
+    }
+
+    .dr {
+        opacity: 0.5;
+        font-size: 50px;
+        left: 520px;
+        
+    }
+
+    .fidi {
+        font-size: 50px;
+        left: 850px;
+        opacity: 0.5;
+    }
+    .developedby {
+        opacity: 0.6;
+        font-size: 50px;
+        left: 90px;
+        top: 85%;
+    }
+
 }
