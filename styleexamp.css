@@ -163,4 +163,41 @@ body {
         animation-name: roller;
         animation-duration: 7s;
     }
+    .text1{
+        position: absolute;
+        left: 34%;
+        top: 56px;
+        color: green;
+        font: 20px;
+        font-family: 'Noto Sans Osmanya', sans-serif;
+        z-index: 7;
+    }
+    .text2{
+        position: absolute;
+        left: 30%;
+        top: 60px;
+        color: green;
+        font: 20px;
+        font-family: 'Noto Sans Osmanya', sans-serif;
+        z-index: 8; 
+    }
+    .text3{
+        position: absolute;
+        left: 50%;
+        top: 70px;
+        color: green;
+        font: 20px;
+        font-family: 'Noto Sans Osmanya', sans-serif;
+        z-index: 9;  
+    }
+    .text4{
+        position: absolute;
+        left: 70%;
+        top: 30px;
+        color: green;
+        font: 20px;
+        font-family: 'Noto Sans Osmanya', sans-serif;
+        z-index: 10; 
+
+    }
 }
