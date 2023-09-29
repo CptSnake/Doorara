@@ -42,3 +42,25 @@ window.location.href = "https://cptsnake.github.io/GuessTheDS/" + result + ".htm
 }
 
 
+
+
+
+
+
+
+
+
+
+function commings() { 
+
+  alert("Comming soon!");
+  window.location.href = "https://cptsnake.github.io/GuessTheDS/";
+    
+
+
+
+
+
+}
+
+
