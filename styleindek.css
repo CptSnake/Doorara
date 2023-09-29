@@ -19,6 +19,9 @@ body {
     border-radius: 10px;
     right: 30%;
     top: 50px;
+
+
+
 }
 .vid {
     position: fixed;
@@ -39,7 +42,7 @@ body {
     user-select: none;
     position: absolute;
     color: rgb(114, 84, 250);
-    left: 600px;
+    left: 41%;
     top: 20px;
     font-size: 50;
     font-family: 'Skranji', cursive;
@@ -54,8 +57,8 @@ body {
     user-select: none;
     font-family: 'Heebo', sans-serif;
     position: absolute;
-    top: 88%;
-    left: 440px;
+    top: 88.5%;
+    left: 30%;
     
 }
 
@@ -67,7 +70,7 @@ body {
     -ms-user-select: none;
     user-select: none;
     position: absolute;
-    left: 485px;
+    left: 370%;
     top: 1px;
     z-index: 2;
 }
@@ -79,7 +82,7 @@ body {
     -ms-user-select: none;
     user-select: none;
     position: absolute;
-    left: 380px;
+    left: 255px;
     top: 1px;
     z-index: 2;
 }
@@ -93,11 +96,11 @@ body {
     user-select: none;
     position: absolute;
     background-color: lightblue;
-    width: 185px;
+    width: 40%;
     border-radius: 10px;
-    left: 375px;
+    left: 30%;
     opacity: 0.2;
-    bottom: 1px;
+    top: 89%;
     height: 20px;
 }
 
@@ -111,7 +114,7 @@ body {
     user-select: none;
     font-family: 'Rowdies', cursive;
     position: absolute;
-    left: 645px;
+    left: 45%;
     top: 80px;
     color: rgb(0, 57, 180);
     font-size: 25;
@@ -138,9 +141,9 @@ body {
     user-select: none;
     position: absolute;
     top: 345px;
-    right: 475px;
-    width: 500px;
-    opacity: 0.2;
+    right: 30%;
+    width: 40%;
+    opacity: 0.3;
     text-align: center;
     font-size: 25;
     font-family: 'Arbutus', serif;
@@ -168,7 +171,7 @@ body {
     width: 500px;
     opacity: 1;
     z-index: 3;
-    left: 490px;
+    left: 31%;
     font-size: 30px;
 }
 
@@ -185,7 +188,7 @@ body {
     width: 500px;
     color: black;
     font-size: 35px;
-    left: 760px;
+    left: 55%;
     z-index: 3;
 }
 
@@ -232,7 +235,7 @@ body {
     width: 220px;
     height: 50px;
     z-index: 4;
-    left: 465px;
+    left: 30%;
     font-size: 30px;
     border-radius: 10px;
     opacity: 0.8;
@@ -247,10 +250,10 @@ body {
     user-select: none;
     position: absolute;
     top: 345px;
-    width: 230px;
+    width: 220px;
     height: 50px;
     z-index: 4;
-    left: 730px;
+    left: 52%;
     font-size: 30px;
     border-radius: 10px;
     opacity: 0.8;
@@ -264,6 +267,8 @@ body {
 .comingsoon {
     visibility: hidden;
 }
+
+
 
 
 
