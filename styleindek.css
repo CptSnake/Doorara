@@ -5,6 +5,12 @@ body {
     
 
 .place {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 40%;
     background-color: lightblue;
@@ -25,6 +31,12 @@ body {
 
 
 .title {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     color: rgb(114, 84, 250);
     left: 600px;
@@ -34,6 +46,12 @@ body {
 }
 
 .developedby {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     font-family: 'Heebo', sans-serif;
     position: absolute;
     top: 88%;
@@ -42,12 +60,24 @@ body {
 }
 
 .fidi {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     left: 485px;
     top: 1px;
     z-index: 2;
 }
 .dr {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     left: 380px;
     top: 1px;
@@ -55,6 +85,12 @@ body {
 }
 
 .namebox {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     background-color: lightblue;
     width: 185px;
@@ -67,6 +103,12 @@ body {
 
 
 .gametype {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     font-family: 'Rowdies', cursive;
     position: absolute;
     left: 645px;
@@ -88,6 +130,12 @@ body {
 
 
 .verhtds {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     top: 345px;
     right: 475px;
@@ -107,6 +155,12 @@ body {
 
 
 .textverthtds {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
 
     font-family: 'Skranji', cursive;
@@ -119,6 +173,12 @@ body {
 }
 
 .verjs {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     top: 350px;
     font-family: 'Skranji', cursive;
@@ -145,6 +205,12 @@ body {
 
 
 .umbblue {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     height: auto;
     width: 50px;
@@ -155,6 +221,12 @@ body {
 
 
 .linkverthtds {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     top: 345px;
     width: 220px;
@@ -167,6 +239,12 @@ body {
 }
 
 .linkverjs {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     top: 345px;
     width: 230px;
