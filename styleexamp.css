@@ -120,7 +120,7 @@ body {
         height: 50px;
         width: 110px;
         z-index: 3;
-        top: 245px;
+        top: 385%;
         left: 510px;
         border-radius: 5px;
         
@@ -135,7 +135,7 @@ body {
         z-index: 1;
         animation-name: boxakia;
         animation-duration: 10s;
-        top: 245px;
+        top: 385%;
         right: 157px;
         border-radius: 5px;
     }
@@ -165,8 +165,8 @@ body {
     }
     .text1{
         position: absolute;
-        left: 38%;
-        top: 385px;
+        left: 550px;
+        top: 41%;
         color: green;
         font-size: 30px;
         font-family: 'Noto Sans Osmanya', sans-serif;
@@ -174,8 +174,8 @@ body {
     }
     .text2{
         position: absolute;
-        left: 54%;
-        top: 385px;
+        left: 850px;
+        top: 41%;
         color: green;
         font-size: 30px;
         font-family: 'Noto Sans Osmanya', sans-serif;
@@ -183,8 +183,8 @@ body {
     }
     .text3{
         position: absolute;
-        left: 38%;
-        top: 490px;
+        left: 550px;
+        top: 54%;
         color: green;
         font-size: 30px;
         font-family: 'Noto Sans Osmanya', sans-serif;
@@ -192,8 +192,8 @@ body {
     }
     .text4{
         position: absolute;
-        left: 54%;
-        top: 490px;
+        left: 850px;
+        top: 54%;
         color: green;
         font-size: 30px;
         font-family: 'Noto Sans Osmanya', sans-serif;
