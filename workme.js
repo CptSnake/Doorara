@@ -63,25 +63,3 @@ function commings() {
 
 }
 
-
-
-
-
-
-
-
-// Correct JS
-
-
-
-
-  function correct() {
-
-
-
-
-
-
-
-    
-  }
