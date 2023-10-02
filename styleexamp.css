@@ -165,8 +165,8 @@ body {
     }
     .text1{
         position: absolute;
-        left: 550px;
-        top: 41%;
+        left: 3%;
+        top: 25%;
         color: green;
         font-size: 30px;
         font-family: 'Noto Sans Osmanya', sans-serif;
@@ -174,8 +174,8 @@ body {
     }
     .text2{
         position: absolute;
-        left: 850px;
-        top: 41%;
+        left: 3%;
+        top: 25%;
         color: green;
         font-size: 30px;
         font-family: 'Noto Sans Osmanya', sans-serif;
@@ -183,8 +183,8 @@ body {
     }
     .text3{
         position: absolute;
-        left: 550px;
-        top: 54%;
+        left: 3%;
+        top: 25%;
         color: green;
         font-size: 30px;
         font-family: 'Noto Sans Osmanya', sans-serif;
@@ -192,8 +192,8 @@ body {
     }
     .text4{
         position: absolute;
-        left: 850px;
-        top: 54%;
+        left: 3%;
+        top: 25%;
         color: green;
         font-size: 30px;
         font-family: 'Noto Sans Osmanya', sans-serif;
