@@ -10,7 +10,7 @@
 
 @keyframes backgrr {
     50% {
-        background:aquamarine;
+        background:rgb(230, 202, 46);
     }
     
 }
@@ -52,7 +52,7 @@ body {
     .backgrr{
         left: 33%;
         position:absolute;
-        background-color: yellow;
+        background-color: rgb(255, 136, 0);
         animation-name: backgrr;
         animation-duration: 10s;
         height: 670px;
@@ -195,6 +195,7 @@ body {
         left: 3%;
         top: 25%;
         color: green;
+        
         font-size: 30px;
         font-family: 'Noto Sans Osmanya', sans-serif;
         z-index: 10; 
@@ -203,25 +204,72 @@ body {
 
 
 
+    @keyframes fadeInLeft {
+        0% {
 
+           transform: translateX(-50px);
+        }
+        100% {
+           transform: translateX(0);
+        }
+     } 
 
 
 
 
     .cortext {
         position: absolute;
+        font-family: 'Abril Fatface', cursive;
         visibility: hidden;
+        font-size: 40px;
+        z-index: 5;
+        opacity: 1;
+        color: #4169e1;
+        left: 100px;
+        top: 5px;
 
 
     }
 
+    .corbox {
+        position: absolute;
+        left: 2%;
+        top: 43%;
+
+          animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
+  -o-animation: fadeIn 6s;
+  -ms-animation: fadeIn 6s;
+        visibility: hidden;
+        width: 350px;
+        background-color: orange;
+        z-index: 3;
+        border-radius: 30px;
+        height: 70px;
+    }
 
 
 
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
 
-
-
-
+    .gonexts {
+        position: absolute;
+        width: 110px;   
+        border-radius: 10px;
+        top: 410px;
+        font-family: 'Abril Fatface', cursive;
+        left: 10%;
+        color: white;
+        visibility: hidden;
+        text-align: center;
+        height: 35px;
+        
+        background-color: rgba(240, 248, 255, 0.123);
+    }
 
 
 
