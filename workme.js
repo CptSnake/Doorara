@@ -38,7 +38,7 @@ var result = linko[numb];
 console.log(result);
 
 
-window.location.href = "https://cptsnake.github.io/GuessTheDS/" + result + ".html";
+window.location.href = "https://drpanayioths.github.io/GuessTheDS/" + result + ".html";
 }
 
 
@@ -54,7 +54,7 @@ window.location.href = "https://cptsnake.github.io/GuessTheDS/" + result + ".htm
 function commings() { 
 
   alert("Comming soon!");
-  window.location.href = "https://cptsnake.github.io/GuessTheDS/";
+  window.location.href = "https://drpanayioths.github.io/GuessTheDS/";
     
 
 
