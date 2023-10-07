@@ -27,3 +27,24 @@ function ful() {
     var gonl = document.getElementById('gonext')
     gonext.style.visibility='visible'
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+function wrong() {
+    var wronka = document.getElementById('wrong')
+    wrong.style.visibility='hidden'
+
+
+
+
+}
