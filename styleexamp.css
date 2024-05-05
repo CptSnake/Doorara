@@ -151,18 +151,7 @@ body {
         font-size: 19px;
         font-family: 'Noto Sans Osmanya', sans-serif;
     }
-    .drp{
-        left: 10%;
-        top: 14px;
-        position: absolute;
-        color: green;
-        bottom: 255px;
-        z-index: 6;
-        font-size: 19px;
-        font-family: 'Noto Sans Osmanya', sans-serif;
-        animation-name: roller;
-        animation-duration: 7s;
-    }
+
     .text1{
         position: absolute;
         left: 3%;
